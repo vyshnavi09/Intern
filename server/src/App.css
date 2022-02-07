@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.link:link {
+  text-decoration: none;
+}
+
+.link:visited {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active{
+  text-decoration: underline;
+  background-color: black;
+}
+
+.list {
+  border: solid darkolivegreen 1px;
+  background-color: darkolivegreen;
+  padding: 10px;
+}
+
+li {
+ display: inline;
+ padding-left: 30px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+input {
+  margin-right: 20px;
+}
+
+.passenger-list {
+  margin: 10px;
+}
+
+/* .react-datepicker-wrapper {
+  display: inline;
+  padding: 0;
+  border: 0;
+  width: 50%;
+}
+
+.react-datepicker__input-container {
+  position: relative;
+  display: inline;
+  width: 50%;
+} */
+
+.flight-form {
+  padding-bottom: 20px;
+}
+
